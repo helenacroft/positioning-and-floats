@@ -1,11 +1,26 @@
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 body{
-  height: 2000px; 
+  	height: 2000px; 
+  	font-family: 'MyriadProRegular'; 
+  	text-align: left;
+  	color: #333333;
+ 
 }
 .container{
 	width: 560px;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;	
+	font-size: 12px;
 }
 .pages{
 	position: absolute;
@@ -48,6 +63,37 @@ body{
 	background: #f68e56;
 	top:38px;
 	right: -84px;	
+}
+.content{
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:32px;	
+}
+article:nth-last-child(1) {
+	display: inline-block;
+}
+.content article{
+	margin-top: -5px;			
+}
+#image-1{
+	margin-top:2px;	
+	margin-left: 2px;	
+	margin-right: 21px;
+	float: left;	
+}
+#image-2{	
+	margin-top:2px;	
+	margin-right:2px;
+	margin-left: 20px; 
+	float: right;	
+}
+h1{	
+	font-weight: normal;
+	font-size: 24px;
+}
+h2{	
+	font-weight: normal;
+	font-size: 18px;
 }
 .share{
 	position: fixed;	
