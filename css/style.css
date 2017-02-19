@@ -1,0 +1,60 @@
+body{
+  height: 2000px; 
+}
+.container{
+	width: 560px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;	
+}
+.pages{
+	position: absolute;
+	width: 519px;
+	height: 746px;
+	border: 2px solid black; 
+}
+.page-1{
+	background: #acacac; 
+    right:17px;
+    top:39px;
+}
+.page-2{
+	background: #cccccc; 
+    right:36px;
+    top:20px;
+}
+.page-3{	
+	right: 57px;
+	background: #ebebeb; 
+}
+.bookmarks{
+	position: absolute;
+	width: 107px;
+	height: 31px;
+	border: 2px solid black; 
+	border-radius: 0 10px 10px 0;
+}
+.bookmark-1{
+	right: -18px;
+	top:46px;
+	background: #00aeef;
+}
+.bookmark-2{
+	right: -50px;
+	top:41px;
+	background: #39b54a;	
+}
+.bookmark-3{
+	background: #f68e56;
+	top:38px;
+	right: -84px;	
+}
+.share{
+	position: fixed;	
+	bottom: 0px;
+	right: 0px;
+	background: #fbaf5d;
+	border: 1px solid black;
+	width: 87px;
+	height: 69px;	
+}
